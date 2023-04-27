@@ -3,11 +3,11 @@
 #declaracion con llaves {} o con la funcion dict()
 
 estudiantes = {
-     #clave:valor
-     "fulanito": 25, 
-     "Maria": 22,
-     "Marta": 30,
-     "Jose": 35
+    #clave:valor
+    "fulanito": 25, 
+    "Maria": 22,
+    "Marta": 30,
+    "Jose": 35
 }
 
 print(estudiantes)
@@ -26,6 +26,8 @@ print(claves)
 
 valores = estudiantes.values()
 print(valores)
+
+#borrar diccionario
 
 estudiantes.clear()
 print(estudiantes)
